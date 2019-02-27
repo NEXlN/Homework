@@ -1,0 +1,106 @@
+
+body
+{
+	height: 100%;
+	background-color: rgb(192, 189, 189);
+}
+.header
+{
+	display: flex;
+	height: 20%;
+}
+#logo, #search
+{
+	text-align: center;
+	font-size: 25px;
+	line-height: 4em;
+	font-weight: bold;
+	margin: auto;
+	background-color: rgb(31, 182, 174);
+	width: 40%;
+	height: 100%;
+
+}
+.under-header
+{
+	display: flex;
+	background-color: rgb(255, 255, 255);
+}
+.punkt
+{
+	background-color: rgb(31, 182, 174);
+	text-align: center;
+	margin: auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 3px;
+} 
+.menu
+{
+	display: inline-block;
+	width: 23%;
+	height: 70%;
+	
+
+}
+.menu1
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.block
+{
+	background-color: rgb(31, 182, 174);
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 3px;
+	font-weight: bold;
+}
+.content
+{
+	display: inline-block;
+	width: 76%;
+	height: 70%;
+}
+.content1
+{
+	
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-wrap: wrap;
+
+}
+.photo
+{
+	margin-top: 10px;
+    margin-right: 85px;
+    margin-left: 85px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 50%;
+}
+img
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+    border: 3px solid rgb(31, 182, 174); 
+}
+#footer
+{
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+	line-height: 4em;
+	font-weight: bold;
+	margin: auto;
+	background-color: rgb(31, 182, 174);
+	width: 100%;
+	height: 15%;
+}
+
+
+

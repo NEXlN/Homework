@@ -1,0 +1,91 @@
+body {
+    background: #FFF;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#header {
+    position: absolute;
+    background: #FFD700;
+    right: 14%;
+    width: 42%;
+    height: 70px;
+}
+
+#container {
+    position: absolute;
+    background: #FFD700;
+    left: 14%;
+    width: 42%;
+    height: 70px;
+}
+
+#navigation {
+    position: absolute;
+    background: #FE9798;
+    top: 100px;
+    right: 28.5%;
+    width: 43%;
+    height: 300px;
+}
+
+#sidebar {
+    position: absolute;
+    background: rgb(9, 40, 214);
+    bottom: 16%;
+    right: 28.5%;
+    width: 14%;
+    height: 120px;
+}
+
+#content {
+    position: absolute;
+    background: rgb(9, 40, 214);
+    bottom: 16%;
+    left: 28.5%;
+    width: 14%;
+    height: 120px;
+}
+
+#clear {
+    position: absolute;
+    background: rgb(9, 40, 214);
+    bottom: 16%;
+    right: 43%;
+    width: 14%;
+    height: 120px;
+}
+
+#footer {
+    position: absolute;
+    background: rgb(92, 252, 0);
+    bottom: 1%;
+    left: 28.5%;
+    width: 10%;
+    height: 80px;
+}
+#csh {
+    position: absolute;
+    background: rgb(92, 252, 0);
+    bottom: 1%;
+    left: 39.5%;
+    width: 10%;
+    height: 80px;
+}
+#gfy {
+    position: absolute;
+    background: rgb(92, 252, 0);
+    bottom: 1%;
+    right: 28.5%;
+    width: 10%;
+    height: 80px;
+}
+#uhy {
+    position: absolute;
+    background: rgb(92, 252, 0);
+    bottom: 1%;
+    right: 39.5%;
+    width: 10%;
+    height: 80px;
+}

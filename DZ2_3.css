@@ -1,0 +1,48 @@
+#header {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 15%;
+  background: rgb(255, 0, 0);
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+}
+#text{
+position: absolute;
+font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+   top: 15%;
+}
+#menu{
+ 
+  position: fixed;
+width: 10%;
+height: 600px;
+background: rgba(0, 255, 0, 0.5)
+}
+#content{
+  position: absolute;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+ top: 15%;
+ left: 10%;
+}
+#footer{
+position: absolute;
+bottom: 0px;
+right: 5%;
+width: 90%;
+height: 15%;
+border-radius: 5px 5px 0 0;
+background: rgb(0, 10, 146);
+}
+  a {
+      color: rgb(12, 139, 8);
+  }
+  a:visited {
+      color: black;
+  }
+  a:active {
+      color: yellow;}

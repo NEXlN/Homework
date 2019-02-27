@@ -1,0 +1,57 @@
+table {
+    position: absolute;
+    background: rgb(120, 250, 14);
+    left: 25%;
+    height: 100%;
+    width: 50%;
+}
+#col1 {
+    height: 10%;
+    width: 45%;
+    background: rgb(250, 81, 14);
+}
+#col2 {
+width: 45%;
+height: 10%;
+background: rgb(250, 81, 14);    
+}
+#col3 {
+    height: 30%;
+    width: 100%;
+ background: red;   
+}
+#col4 {
+    height: ;
+    width: 33%;
+   background: yellow; 
+}
+#col5 {
+    height: ;
+    width: 33%;
+   background: yellow;    
+}
+#col6 {
+    height: ;
+    width: 33%;
+   background: yellow;  
+}
+#col7 {
+    height: 15%;
+    width: 22%;
+    background: blueviolet; 
+}
+#col8 {
+    height: 15%;
+    width: 22%;
+    background: blueviolet;
+}
+#col9 {
+    height: 15%;
+    width: 22%;
+    background: blueviolet;  
+}
+#col10 {
+    height: 15%;
+    width: 22%;
+    background: blueviolet;
+}

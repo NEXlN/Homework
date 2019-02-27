@@ -1,0 +1,48 @@
+body {
+    background-image: url(priroda.jpg);
+    background-size: 100%;
+}
+p1 {
+    color: #000080;
+    font-size: 30px;
+    font-family: Arial, Verdana, sans-serif;
+  }
+  p2 {
+      color: rgb(126, 128, 0);
+      font-size: 30px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  p4 {
+      color: rgb(19, 88, 37);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 18px;
+
+  }
+  p5 {
+    color: rgb(53, 1, 10);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 26px;  
+  }
+  p6 {
+    color: rgb(165, 149, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+  }
+  h1 {
+      font-family: 'Times New Roman', Times, serif;
+  }
+  a {
+      color: rgb(12, 139, 8);
+  }
+  a:visited {
+      color: black;
+  }
+  a:active {
+      color: yellow;
+  }
+  ol {
+      color: blueviolet;
+      font-size: 19px;
+      font-style: italic;
+  }
