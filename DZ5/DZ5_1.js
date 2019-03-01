@@ -1,4 +1,28 @@
-({x(x){alert(/\d/g.test(x)?[].reduce.call(x,(x,y,z)=>x+=z%2?y.toLowerCase():y.toUpperCase(),''):x.split('').sort(()=>-1).join(''))}}).x(prompt("Как вас зовут?"))
+var a= prompt("Введите имя пользователя", );
+num = parseInt(a.replace(/\D+/g,""));
+if ( num )
+{
+    var len= a.length;
+    len--;
+    var an=" ";
+    while (len>=0)
+    {
+
+        var flag = a.charAt(len).toUpperCase()==a.charAt(len);
+        if (flag)
+        {
+            an=an+a.charAt(len).toLowerCase();
+        }
+        else
+        {
+            an=an+a.charAt(len).toUpperCase();
+        }
+        len--;
+    }
+    alert(an.split("").reverse().join(""));
+}
+else
+    alert( a.split("").reverse().join(""));
 window.onload = function() {
     document.getElementById('button2').onclick = function()
     {
