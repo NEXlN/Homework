@@ -2,7 +2,6 @@ var a= prompt("Введите имя пользователя", );
 num = parseInt(a.replace(/\D+/g,""));
 if ( num )
 {
-<<<<<<< HEAD
     var len= a.length;
     len--;
     var an=" ";
@@ -24,7 +23,6 @@ if ( num )
 }
 else
     alert( a.split("").reverse().join(""));
-=======
 	var len= a.length;
 	len--;
 	var an=" ";
@@ -46,7 +44,6 @@ else
 }
 else
 alert( a.split("").reverse().join(""));
->>>>>>> b67155d907500f2f39094e49ca5da35ba449f57b
 window.onload = function() {
     document.getElementById('button2').onclick = function()
     {
